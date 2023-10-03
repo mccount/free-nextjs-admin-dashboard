@@ -8,6 +8,7 @@ import SwitcherFour from "@/components/Switchers/SwitcherFour";
 import SwitcherOne from "@/components/Switchers/SwitcherOne";
 import SwitcherThree from "@/components/Switchers/SwitcherThree";
 import SwitcherTwo from "@/components/Switchers/SwitcherTwo";
+import createUUID from "@/components/helpers/createUUID";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
@@ -230,21 +231,21 @@ const FormElements = () => {
                       <div
                         className="text-black dark:text-white"
                       >
-                        <CheckboxThree key={1} />
+                        <CheckboxThree />
                       </div>
                     </td>
                     <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
                       <div
                         className="text-black dark:text-white"
                       >
-                        <CheckboxThree key={1} />
+                        <CheckboxThree />
                       </div>
                     </td>
                     <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
                       <div
                         className="text-black dark:text-white"
                       >
-                        <CheckboxThree  key={1} />
+                        <CheckboxThree />
                       </div>
                     </td>
                     {/* <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
